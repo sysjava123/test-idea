@@ -11,6 +11,11 @@ public class Main {
         int id = 10;
         show(id);
         show1(id);
+        show2(id);
+    }
+
+    private static void show2(int id) {
+        System.out.println(id);
     }
 
     private static void show1(int id) {
