@@ -10,6 +10,11 @@ public class Main {
         System.out.println("llllllllllllllllll");
         int id = 10;
         show(id);
+        show1(id);
+    }
+
+    private static void show1(int id) {
+        System.out.println(id);
     }
 
     private static void show(int id) {
